@@ -81,7 +81,7 @@ class _MyHomePageState extends State<MyHomePage> {
               padding: const EdgeInsets.all(8.0),
               child: Text("Don't forget to grant permissions to your app in Settings.", textAlign: TextAlign.center,),
             ),
-            Image(image: AssetImage('assets/images/brother_hack.png'))
+            SingleChildScrollView(child: Image(image: AssetImage('assets/images/brother_hack.png')))
           ],
         ),
       ),
